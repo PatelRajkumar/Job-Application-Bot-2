@@ -559,8 +559,8 @@ async def finalize_resume(
         output_dir.mkdir(parents=True, exist_ok=True)
         context.user_data['output_dir'] = str(output_dir)
 
-        html_path = output_dir / f"PurveshGandhi_Resume_{company}.html"
-        pdf_path  = output_dir / f"PurveshGandhi_Resume_{company}.pdf"
+        html_path = output_dir / f"Rajkumar_Patel.html"
+        pdf_path  = output_dir / f"Rajkumar_Patel.pdf"
 
         html_path.write_text(data['tailored_html'], encoding='utf-8')
 
