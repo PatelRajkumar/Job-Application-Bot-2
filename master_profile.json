@@ -1,0 +1,172 @@
+{
+  "basics": {
+    "name": "Rajkumar Patel",
+    "role": "Software Engineer",
+    "phone": "7041733193",
+    "email": "patelrajkumar362001@gmail.com",
+    "profiles": {
+      "linkedin": "https://www.linkedin.com/in/rajkumar3601/",
+      "github": "https://github.com/PatelRajkumar",
+      "leetcode": "https://leetcode.com/u/RK3601/"
+    }
+  },
+  "skills": {
+    "languages": [
+      "Java (Core Java, Collections, Streams, Multithreading)",
+      "SQL",
+      "JavaScript",
+      "TypeScript",
+      "HTML",
+      "CSS"
+    ],
+    "frameworks": [
+      "Spring Boot",
+      "Spring",
+      "Spring Security",
+      "Hibernate",
+      "JPA",
+      "REST APIs",
+      "Microservices",
+      "Maven",
+      "React",
+      "Redux",
+      "MUI",
+      "Tailwind",
+      "Kafka"
+    ],
+    "databases": [
+      "PostgreSQL",
+      "MongoDB",
+      "Redis"
+    ],
+    "cloud": [
+      "AWS S3",
+      "AWS EC2",
+      "AWS Lambda"
+    ],
+    "tools_and_practices": [
+      "IntelliJ",
+      "AntiGravity",
+      "Git",
+      "Postman",
+      "JUnit",
+      "Mockito",
+      "SonarQube",
+      "Docker",
+      "Jenkins",
+      "CI/CD Pipelines",
+      "Agile",
+      "DSA",
+      "Design Patterns",
+      "SOLID Principles"
+    ]
+  },
+  "experience": [
+    {
+      "company": "Wishtree Technologies",
+      "role": "Software Engineer",
+      "startDate": "Jan 2022",
+      "endDate": "Present",
+      "location": "Ahmedabad, Gujarat",
+      "general_responsibilities": [
+        "Designed and developed scalable Java microservices using Spring Boot and REST APIs.",
+        "Designed scalable microservices following SOLID principles and design patterns.",
+        "Implemented JWT authentication and role-based access control to enhance security and simplify user management.",
+        "Integrated AWS cloud services S3, EC2, Lambda to build scalable file storage and processing solutions, improving system performance and reducing dependency on application servers.",
+        "Developed unit and integration tests using JUnit and Mockito to ensure reliability and high code quality.",
+        "Initiated and led projects from scratch, defining branching strategies and project estimations.",
+        "Mentored software development interns by conducting regular code reviews, providing constructive feedback, and guiding them through their internship project to enhance their technical skills.",
+        "Held regular client meetings to address concerns, align deliverables, and maintain clear communication throughout development cycles."
+      ],
+      "projects": [
+        {
+          "name": "Enterprise B2B E-Commerce Platform for HVAC Distribution",
+          "tech_stack": [
+            "Java 17",
+            "Spring Boot 3",
+            "Apache Lucene",
+            "Stripe",
+            "MockMvc"
+          ],
+          "impact_bullets": [
+            "Led backend development of a B2B e-commerce platform managing 50K+ SKUs and 11K–13K daily transactions, enabling real-time inventory and dynamic pricing.",
+            "Built a full-text search engine using Apache Lucene, reducing average search latency from 800ms to 150–200ms.",
+            "Implemented seamless B2B payment processing using the Stripe Java SDK, adhering to PCI compliance and managing complex multi-stage order checkouts securely.",
+            "Designed and tested REST APIs using MockMvc, achieving 80–85% test coverage and validating edge cases, input validation, and error handling."
+          ],
+          "tags": [
+            "backend",
+            "ecommerce",
+            "performance",
+            "payments",
+            "search"
+          ]
+        },
+        {
+          "name": "TaskFlow - Task Management System",
+          "tech_stack": [
+            "Java",
+            "Spring Boot",
+            "PostgreSQL",
+            "Redis",
+            "AWS S3",
+            "React",
+            "TypeScript",
+            "Material UI",
+            "TanStack Query"
+          ],
+          "impact_bullets": [
+            "Architected a full-stack issue tracking platform with JWT-based authentication, refresh token rotation, email verification, and role-based access control (RBAC).",
+            "Integrated Redis caching layer with custom TTL strategies and Spring AOP based logging to monitor cache performance, reducing authentication query load by ~90%.",
+            "Built AWS S3 file storage service with presigned URL generation for secure temporary file access, with local storage fallback for development environments.",
+            "Developed React frontend with TypeScript, Material UI, and TanStack Query for efficient server state management with optimistic updates and real-time data synchronization.",
+            "Containerized application with Docker Compose orchestration."
+          ],
+          "tags": [
+            "fullstack",
+            "backend",
+            "auth",
+            "caching",
+            "aws"
+          ]
+        },
+        {
+          "name": "Judicial Case Management System",
+          "tech_stack": [
+            "Java",
+            "Spring Boot",
+            "React",
+            "Redux",
+            "PostgreSQL",
+            "Spring Security",
+            "Hibernate"
+          ],
+          "impact_bullets": [
+            "Developed a role-based case management system using Spring Boot and Spring Security, implementing fine-grained access control and secure session handling.",
+            "Designed and optimized PostgreSQL database queries and backend services, improving application performance for search and filtering operations.",
+            "Designed database schema in PostgreSQL and implemented complex query optimization for efficient search and filtering operations.",
+            "Optimized overall application performance by 23% using Lighthouse and GTmetrix, reducing image sizes by over 50% with WebP format, prioritizing carousel images for faster rendering and implementing React.Lazy to minimize unused JavaScript.",
+            "Conducted 50+ code reviews, preventing problematic code merges and enforcing coding principles like DRY and KISS, resulting in a clean and maintainable codebase.",
+            "Applied Agile principles to manage project timelines, consistently achieving 95% on-time delivery while working on two projects simultaneously."
+          ],
+          "tags": [
+            "backend",
+            "security",
+            "performance",
+            "agile"
+          ]
+        }
+      ]
+    }
+  ],
+  "side_projects": [],
+  "education": [
+    {
+      "institution": "Ganpat University",
+      "degree": "Bachelor of Technology in Information Technology",
+      "location": "Mehsana, Gujarat",
+      "startYear": "2018",
+      "endYear": "2022"
+    }
+  ]
+}
